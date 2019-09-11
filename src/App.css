@@ -32,34 +32,45 @@
      
   }
   .App{
-    display: grid;
-    
-    
+    display: flex;
+    flex-direction: row;
 }
   .number-button{
-      grid-area: nb;
+      
       background-color: #4169E1;
      
   }
+  .op-button{
+    background-color: #4682B4;
+  }
+  .special-button{
+
+    background-color: #5F9EA0;
+    
+  }
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+.right{
+  /* margin-right: 20px; */
+  
+}
+
   .number-button:hover{
     background-color: white;
   }
 
-  .special-button{
-    
-    background-color:#5F9EA0;
-    
-  }
+  
+  
   .special-button:hover{
     background-color: white;
   }
 
-  .op-button{
-
-    background-color: #4682B4;
-    
-    
-  }
+  
   .op-button:hover{
     background-color: white;
   }
